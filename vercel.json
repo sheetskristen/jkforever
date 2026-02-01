@@ -8,6 +8,11 @@
       "source": "/rsvp",
       "destination": "https://forms.gle/Hj1afJNQmzS6GATP7",
       "permanent": false
+    },
+    {
+      "source": "/registry",
+      "destination": "https://heathceramics.myshopify.com/apps/registry/sheets-weber-wedding?shared_url=true",
+      "permanent": false
     }
   ]
 }
