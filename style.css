@@ -109,14 +109,22 @@ body.us {
   text-align: center;
 }
 
-.us-content {
+.us-carousel {
   display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
+  gap: 1rem;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding: 0 10vw 2rem;
+  scrollbar-width: none;
+}
+
+.us-carousel::-webkit-scrollbar {
+  display: none;
 }
 
 .us-photo {
-  max-width: 100%;
+  flex-shrink: 0;
+  scroll-snap-align: center;
   max-height: 70vh;
   width: auto;
   height: auto;
