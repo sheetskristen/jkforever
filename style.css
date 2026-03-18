@@ -137,6 +137,18 @@ body.us {
   padding-bottom: 2rem;
 }
 
+.photo-credit {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  padding-bottom: 2rem;
+}
+
+.photo-credit a {
+  color: #777;
+  text-decoration: underline;
+}
+
 /* Them page specific */
 body.them {
   font-size: 1.5rem;
